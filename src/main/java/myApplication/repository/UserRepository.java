@@ -2,7 +2,9 @@ package myApplication.repository;
 
 import myApplication.model.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
+import java.util.Optional;
 
 public interface UserRepository extends MongoRepository<User, String> {
-    User findByUsernameAndPassword(String username, String password);
+    Optional<User> findByUsername(String username);
+
 }
