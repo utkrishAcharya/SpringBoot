@@ -30,6 +30,8 @@ public class SimUserController {
             response.setStatus("Failed");
             response.setMessage("Failed to add: " + e.getMessage());
         }
+        
+       
         return response;
     }
 
@@ -40,14 +42,20 @@ public class SimUserController {
 
         Response response = new Response();
         try {
+            
             SimUser updated = simUserService.updateSimUserInfo(simuserId, updateSimUser);
             response.setStatus("Success");
+            
             response.setMessage("User updated successfully");
+            
             response.setData(updated);
-        } catch (AppException e) {
+        } 
+        catch (AppException e) {
             response.setStatus("Failure");
+            
             response.setMessage("Update failed: " + e.getMessage());
         }
+        
         return response;
     }
 
