@@ -1,5 +1,4 @@
 package myApplication.appController;
-
 import myApplication.exception.AppException;
 import myApplication.model.SimUser;
 import myApplication.pojo.LoginRequest;
@@ -7,7 +6,6 @@ import myApplication.pojo.Response;
 import myApplication.service.SimUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.UUID;
 
