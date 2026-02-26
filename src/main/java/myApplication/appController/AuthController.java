@@ -1,6 +1,4 @@
-
 package myApplication.appController;
-
 import myApplication.model.User;
 import myApplication.pojo.LoginRequest;
 import myApplication.pojo.SignupRequest;
@@ -18,13 +16,12 @@ public class AuthController {
 
     @PostMapping("/signup")
     public User signup(@RequestBody SignupRequest signupRequest) {
-        
         return authService.signup(signupRequest);
     }
 
     @PostMapping("/login")
+    
     public User login(@RequestBody LoginRequest loginRequest) {
         
         return authService.login(loginRequest);
-    }
-}
+    }}
