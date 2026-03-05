@@ -1,6 +1,7 @@
 package myApplication.pojo;
 
 public class SignupRequest {
+    
     private String username;
     private String password;
 
