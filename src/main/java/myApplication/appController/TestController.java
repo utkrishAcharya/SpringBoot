@@ -13,6 +13,7 @@ public class TestController {
     @GetMapping("/testdb")
     public String testDb() {
         
+        
         long count = userRepository.count();
         
         return "Users in DB: " + count;
