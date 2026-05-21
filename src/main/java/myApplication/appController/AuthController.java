@@ -14,6 +14,7 @@ public class AuthController {
 
     @Autowired
     private AuthService authService;
+    
 
     @PostMapping("/signup")
     public User signup(@RequestBody SignupRequest signupRequest) {
