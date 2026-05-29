@@ -17,6 +17,7 @@ public class SimUserServiceImplement implements SimUserService {
     @Override
     public SimUser addNewSimUser(SimUser simUser) throws AppException {
         
+        
         return repository.save(simUser);
         
     }
