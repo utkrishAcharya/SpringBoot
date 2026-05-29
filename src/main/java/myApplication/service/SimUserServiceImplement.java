@@ -1,5 +1,4 @@
 package myApplication.service;
-
 import myApplication.exception.AppException;
 import myApplication.model.SimUser;
 import myApplication.repository.SimUserRepository;
