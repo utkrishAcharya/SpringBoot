@@ -23,6 +23,7 @@ public class SimUserController {
         
         
         Response response = new Response();
+        
         try {
             SimUser savedSimUser = simUserService.addNewSimUser(simuser);
             response.setStatus("Success");
