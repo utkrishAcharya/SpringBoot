@@ -9,6 +9,7 @@ public class TestController {
 
     @Autowired
     private UserRepository userRepository;
+    
 
     @GetMapping("/testdb")
     public String testDb() {
