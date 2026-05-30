@@ -15,6 +15,7 @@ public class TestController {
     public String testDb() {
         
         
+        
         long count = userRepository.count();
         
         return "Users in DB: " + count;
