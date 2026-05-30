@@ -19,5 +19,6 @@ public class TestController {
         long count = userRepository.count();
         
         return "Users in DB: " + count;
+        
     }}
 
