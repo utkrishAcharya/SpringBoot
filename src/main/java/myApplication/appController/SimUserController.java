@@ -12,6 +12,7 @@ import java.util.UUID;
 @RestController
 @RequestMapping("/simusers")
 public class SimUserController {
+    
 
     @Autowired
     private SimUserService simUserService;
