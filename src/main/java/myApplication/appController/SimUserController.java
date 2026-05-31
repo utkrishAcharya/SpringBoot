@@ -32,6 +32,7 @@ public class SimUserController {
             response.setData(savedSimUser);
             
         } catch (AppException e) {
+            
             response.setStatus("Failed");
             response.setMessage("Failed to add: " + e.getMessage());
         }
