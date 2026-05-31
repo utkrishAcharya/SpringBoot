@@ -30,6 +30,7 @@ public class SimUserController {
             response.setStatus("Success");
             response.setMessage("New User Added Successfully");
             response.setData(savedSimUser);
+            
         } catch (AppException e) {
             response.setStatus("Failed");
             response.setMessage("Failed to add: " + e.getMessage());
