@@ -92,6 +92,7 @@ public class SimUserController {
             response.setStatus("Success");
             response.setMessage("Users fetched successfully");
             response.setData(simuserList);
+            
         } catch (AppException ex) {
             response.setStatus("Failure");
             response.setMessage("Error: " + ex.getMessage());
