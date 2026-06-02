@@ -46,6 +46,7 @@ public class SimUserController {
 
     @PutMapping("/update/{simuserId}")
     public Response updateSimUserInfo(
+        
             @PathVariable String simuserId,
             @RequestBody SimUser updateSimUser) {
 
