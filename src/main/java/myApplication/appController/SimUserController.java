@@ -146,6 +146,7 @@ public class SimUserController {
             response.setMessage("Login successful");
             response.setData(token);  // return token
         } catch (AppException e){
+            
             response.setStatus("Failed");
             response.setMessage("Login failed: " + e.getMessage());
         }
