@@ -31,6 +31,7 @@ public class SimUserController {
             response.setMessage("New User Added Successfully");
             response.setData(savedSimUser);
             
+            
         } catch (AppException e) {
             
             
