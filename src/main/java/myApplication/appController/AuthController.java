@@ -19,8 +19,7 @@ public class AuthController {
     public User signup(@RequestBody SignupRequest signupRequest) {
         
         
-        
-        return authService.signup(signupRequest);
+         return authService.signup(signupRequest);
         
     }
     
