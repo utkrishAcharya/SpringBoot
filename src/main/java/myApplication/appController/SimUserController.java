@@ -19,8 +19,7 @@ public class SimUserController {
    @PostMapping("/add")
     public Response addNewSimUser(@RequestBody SimUser simuser) {
         
-        
-        Response response = new Response();
+     Response response = new Response();
         
         try {
             
