@@ -16,8 +16,7 @@ public class SimUserController {
    @Autowired
     private SimUserService simUserService;
     
-
-    @PostMapping("/add")
+   @PostMapping("/add")
     public Response addNewSimUser(@RequestBody SimUser simuser) {
         
         
