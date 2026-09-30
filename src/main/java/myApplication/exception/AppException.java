@@ -1,7 +1,7 @@
 package myApplication.exception;
 
 public class AppException extends RuntimeException {
-
+ 
     public AppException(String message) {
         
     super(message);
@@ -10,6 +10,6 @@ public class AppException extends RuntimeException {
 
     public AppException(String message, Throwable cause) {
         
-        super(message, cause);
+      super(message, cause);
       
       }}
