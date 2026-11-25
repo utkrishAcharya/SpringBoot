@@ -20,7 +20,7 @@ public class AuthController {
         
         return authService.signup(signupRequest);
         
-    }
+          }
     
 
     @PostMapping("/login")
